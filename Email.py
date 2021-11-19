@@ -2,10 +2,10 @@ import yagmail
 import os
 
 sender = "aravind.merugu2610@gmail.com"
-receiver = "aravindmeruguwgl@gmail.com"
+receiver = ["vashistsunny56@gmail.com","aravindmeruguwgl@gmail.com"]
 subject = "Script Mail"
 contents = """
-This is a mail sent by running a python script.
+sending mail to multiple users.
 """
 
 yag = yagmail.SMTP(user=sender, password=os.getenv('PASSWORD'))
